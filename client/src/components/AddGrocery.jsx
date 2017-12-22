@@ -8,7 +8,14 @@ class AddGrocery extends React.Component {
   }
 
   render () {
-    return null;
+    return (
+        <div>
+          <div>Add Some Sweet Sweet Groceries</div>
+            <div style={{fontSize: 10}}>
+            Stuff to Add <input type="text" style={{height: 20, width: 200}}></input>
+          </div>
+        </div>
+      )
   }
 }
 
